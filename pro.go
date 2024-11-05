@@ -7,4 +7,4 @@ package goreplay
 var PRO = true
 
 // SettingsHook is intentionally left as a no-op
-var SettingsHook func(*AppSettings)
+var SettingsHook = func(*AppSettings) {}
