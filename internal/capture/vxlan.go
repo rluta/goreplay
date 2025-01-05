@@ -9,7 +9,7 @@ import (
 	"time"
 )
 
-const VxLanPacketSize = 1526 //vxlan 8 B + ethernet II 1518 B
+const VxLanPacketSize = 9026 //vxlan 8 B + ethernet II 1518 B
 
 type vxlanHandle struct {
 	connection    *net.UDPConn
